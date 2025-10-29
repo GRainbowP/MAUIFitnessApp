@@ -11,7 +11,7 @@
 
             <Label Text="Choose your AI Coach" HorizontalOptions="Center" FontSize="Title"/>
 
-            <Border Stroke="Red" HorizontalOptions="Center">
+            <Border Stroke="Transparent" HorizontalOptions="Center">
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="12"/>
             </Border.StrokeShape>
@@ -24,14 +24,14 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="gym.jpg" Aspect="AspectFill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <Image Source="coach_1.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                     <Label Grid.Row="0" Grid.Column="0" Text="🧍Slim Seeker" FontSize="Subtitle" HorizontalOptions="Start"/>
                     <Label Grid.Row="1" Grid.Column="0" Text="Achieve a slimmer look" HorizontalOptions="Start"/>
-                    <Button Grid.Column="1" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
+                    <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
 
-            <Border Stroke="Red" HorizontalOptions="Center">
+            <Border Stroke="Transparent" HorizontalOptions="Center">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="12"/>
                 </Border.StrokeShape>
@@ -44,15 +44,15 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="gym.jpg" Aspect="AspectFill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <Image Source="coach_2.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                     <Label Grid.Row="0" Grid.Column="0" Text="💪Lean Machine" FontSize="Subtitle" HorizontalOptions="Start"/>
                     <Label Grid.Row="1" Grid.Column="0" Text="Become leaner and reduce body fat" HorizontalOptions="Start"/>
-                    <Button Grid.Column="1" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
+                    <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
 
 
-            <Border Stroke="Red" HorizontalOptions="Center">
+            <Border Stroke="Transparent" HorizontalOptions="Center">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="12"/>
                 </Border.StrokeShape>
@@ -65,14 +65,14 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="gym.jpg" Aspect="AspectFill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <Image Source="coach_3.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                     <Label Grid.Row="0" Grid.Column="0" Text="🏋️‍Muscle Maverick" FontSize="Subtitle" HorizontalOptions="Start"/>
                     <Label Grid.Row="1" Grid.Column="0" Text="Increase muscle mass and tone up" HorizontalOptions="Start"/>
-                    <Button Grid.Column="1" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
+                    <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
 
-            <Border Stroke="Red" HorizontalOptions="Center">
+            <Border Stroke="Transparent" HorizontalOptions="Center">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="12"/>
                 </Border.StrokeShape>
@@ -85,10 +85,10 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="gym.jpg" Aspect="AspectFill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                    <Image Source="coach_4.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
                     <Label Grid.Row="0" Grid.Column="0" Text="🚀Build your own coach" FontSize="Subtitle" HorizontalOptions="Start"/>
                     <Label Grid.Row="1" Grid.Column="0" Text="Create your own AI coach and build a plan with your unique goals" HorizontalOptions="Start"/>
-                    <Button Grid.Column="1" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
+                    <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
 
