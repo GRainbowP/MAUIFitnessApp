@@ -25,7 +25,7 @@
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="32"/>
                 </Border.StrokeShape>
-                <Label Text="00:01:04" Padding="10,0,10,0" TextColor="White" />
+                <Label Text="00:01:04" Padding="10,5,10,5" TextColor="White" />
             </Border>
         </Grid>
 
@@ -47,9 +47,9 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.RowSpan="3" Grid.Column="0" Text="✓" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#5AD398"/>
-                <Label Grid.Row="0" Grid.Column="1" Text="Elliptical Machine" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black" />
+                <Label Grid.Row="0" Grid.Column="0" Margin="20,0,0,0" Text="Elliptical Machine" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black" />
                 <Label Grid.Row="0" Grid.Column="2" TextColor="Black" Text="^" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" />
-                <Label Grid.Row="1" Grid.Column="1" Text="ℹ️ Tap To Re-Open" FontSize="Body" HorizontalOptions="Start" TextColor="#A5A5A5" />
+                <Label Grid.Row="1" Grid.Column="0" Margin="20,0,0,0" Text="ℹ️ Tap To Re-Open" FontSize="Body" HorizontalOptions="Start" TextColor="#A5A5A5" />
             </Grid>
         </Border>
 
