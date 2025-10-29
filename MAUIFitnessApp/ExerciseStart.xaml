@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIFitnessApp.ExerciseStart"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Stroke="Transparent" HorizontalOptions="Start">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="32"/>
+                </Border.StrokeShape>
+                <Button Clicked="BackButton" Grid.Column="0" Grid.Row="0" Text="&lt;-" HorizontalOptions="Start" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="#D4D4D4"/>
+            </Border>
+            <Label Grid.Column="1" Grid.Row="0" Text="Working Out" TextColor="Black" FontSize="Title" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Border Grid.Column="2" Grid.Row="0" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="End" VerticalOptions="Center" >
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="32"/>
+                </Border.StrokeShape>
+                <Label Text="00:01:04" Padding="10,0,10,0" TextColor="White" />
+            </Border>
+        </Grid>
+
+        <Label Margin="5" Text="Gym Cardio &amp; Strength" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center" Padding="10,0,10,0" TextColor="Black" />
+
+        <Border Margin="10" Stroke="Transparent" BackgroundColor="#EDEDED" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.RowSpan="3" Grid.Column="0" Text="✓" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#5AD398"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Elliptical Machine" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black" />
+                <Label Grid.Row="0" Grid.Column="2" TextColor="Black" Text="^" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" />
+                <Label Grid.Row="1" Grid.Column="1" Text="ℹ️ Tap To Re-Open" FontSize="Body" HorizontalOptions="Start" TextColor="#A5A5A5" />
+            </Grid>
+        </Border>
+
+    </VerticalStackLayout>
+</ContentPage>

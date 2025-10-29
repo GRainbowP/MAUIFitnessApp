@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace MAUIFitnessApp;
 
 public partial class WorkoutPlans : ContentPage
@@ -13,5 +11,10 @@ public partial class WorkoutPlans : ContentPage
     async void BackButton(object sender, EventArgs e)
     {
 		await Navigation.PushAsync(new MainPage());
+    }
+
+    async void WorkoutButton(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new WorkoutInfo());
     }
 }

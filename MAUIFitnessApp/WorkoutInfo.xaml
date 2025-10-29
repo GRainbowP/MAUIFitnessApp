@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIFitnessApp.WorkoutInfo"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Stroke="Transparent" HorizontalOptions="Start">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="32"/>
+                </Border.StrokeShape>
+                <Button Clicked="BackButton" Grid.Column="0" Grid.Row="0" Text="&lt;-" HorizontalOptions="Start" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="#D4D4D4"/>
+            </Border>
+            <Label Grid.Column="1" Grid.Row="0" Text="Workout Plan" TextColor="Black" FontSize="Title" VerticalOptions="Center" HorizontalOptions="Center" />
+        </Grid>
+
+        <VerticalStackLayout HorizontalOptions="Center" Margin="0,10,0,10" Spacing="10">
+            <Label Text="My weight loss plan" FontSize="Subtitle" FontAttributes="Bold" Padding="10,0,10,0" TextColor="#71D9A6" />
+            <HorizontalStackLayout Spacing="5" HorizontalOptions="Center">
+                <Label Text="By AI Coach" TextColor="Black" />
+                <Border Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="32"/>
+                    </Border.StrokeShape>
+                    <Label Text="🧍Slim Seeker" HorizontalOptions="Center" Padding="10,0,10,0" TextColor="White" />
+                </Border>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+        <Border Margin="5" Stroke="Transparent" BackgroundColor="#F5F5F5" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="ℹ️ Plan Overview" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
+                <Label Grid.Row="0" Grid.Column="2" Text="^" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" TextColor="Black" />
+                <Label Grid.Row="1" Grid.ColumnSpan="3" Margin="0,10,0,0" TextColor="Black" Text="This beginner-friendly workout plan aims to help you lose weight by incorporating a mix of gym and home exercises. Focusing on a full-body approach, the plan encourages steady fat burning and increases your overall fitness level." />
+            </Grid>
+        </Border>
+
+        <Label Margin="5" Text="Select a Workout" FontSize="Subtitle" FontAttributes="Bold" Padding="10,0,10,0" TextColor="Black" />
+
+        <Border Margin="5" Stroke="Transparent" BackgroundColor="#E5D8FB" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Full Body Blast" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Full Body" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="2" Grid.Column="0" Text="🆕You haven't done this yet" TextColor="Black" />
+                <HorizontalStackLayout Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="Start">
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="5 exercises" Padding="10,0,10,0" TextColor="White" />
+
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="60 mins" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                </HorizontalStackLayout>
+                <Label Grid.Row="4" Grid.Column="0" Text="🗓️Preferred Day: Monday" TextColor="Black" />
+                <Button Clicked="ExerciseButton" Grid.Column="3" Grid.RowSpan="5" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
+            </Grid>
+        </Border>
+
+        <Border Margin="5" Stroke="Transparent" BackgroundColor="#E5D8FB" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="At-Home Circuit" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Full Body" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="2" Grid.Column="0" Text="🆕You haven't done this yet" TextColor="Black" />
+                <HorizontalStackLayout Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="Start">
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="6 exercises" Padding="10,0,10,0" TextColor="White" />
+
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="60 mins" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                </HorizontalStackLayout>
+                <Label Grid.Row="4" Grid.Column="0" Text="🗓️Preferred Day: Wednesday" TextColor="Black" />
+                <Button Clicked="ExerciseButton" Grid.Column="3" Grid.RowSpan="5" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
+            </Grid>
+        </Border>
+
+        <Border Margin="5" Stroke="Transparent" BackgroundColor="#E5D8FB" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Gym Cardio &amp; Strength" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Full Body" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="2" Grid.Column="0" Text="🆕You haven't done this yet" TextColor="Black" />
+                <HorizontalStackLayout Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="Start">
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="5 exercises" Padding="10,0,10,0" TextColor="White" />
+
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="60 mins" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                </HorizontalStackLayout>
+                <Label Grid.Row="4" Grid.Column="0" Text="🗓️Preferred Day: Friday" TextColor="Black" />
+                <Button Clicked="ExerciseButton" Grid.Column="3" Grid.RowSpan="5" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
+            </Grid>
+        </Border>
+
+    </VerticalStackLayout>
+</ContentPage>

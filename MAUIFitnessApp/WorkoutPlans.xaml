@@ -62,7 +62,7 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Button Grid.Row="0" Grid.Column="0" Text="+" FontSize="Medium" FontAttributes="Bold" TextColor="White" BackgroundColor="Transparent"/>
+                        <Button Clicked="WorkoutButton" Grid.Row="0" Grid.Column="0" Text="+" FontSize="Medium" FontAttributes="Bold" TextColor="White" BackgroundColor="Transparent"/>
                     </Grid>
                 </Border>
             </Grid>
@@ -127,7 +127,7 @@
                 <Label Grid.Row="4" Grid.Column="0" Text="🧍‍Medium fitness level" TextColor="Black" />
                 <Label Grid.Row="5" Grid.Column="0" Text="🕓Workouts approx. 45 mins" TextColor="Black" />
                 <Label Grid.Row="6" Grid.Column="0" Text="🗓️Created on 31 Oct 2024" TextColor="Black" />
-                <Button Grid.Column="3" Grid.RowSpan="7" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
+                <Button Clicked="WorkoutButton" Grid.Column="3" Grid.RowSpan="7" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
             </Grid>
         </Border>
 
@@ -189,7 +189,7 @@
                 <Label Grid.Row="4" Grid.Column="0" Text="🧍‍Low fitness level" TextColor="Black" />
                 <Label Grid.Row="5" Grid.Column="0" Text="🕓Workouts approx. 60 mins" TextColor="Black" />
                 <Label Grid.Row="6" Grid.Column="0" Text="🗓️Created on 31 Oct 2024" TextColor="Black" />
-                <Button Grid.Column="3" Grid.RowSpan="7" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
+                <Button Clicked="WorkoutButton" Grid.Column="3" Grid.RowSpan="7" Text=">" FontSize="Large" FontAttributes="Bold" TextColor="#747387" Background="Transparent" HorizontalOptions="EndAndExpand"/>
             </Grid>
         </Border>
     </VerticalStackLayout>
