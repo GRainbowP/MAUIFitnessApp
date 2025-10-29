@@ -88,80 +88,41 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Text="My muscle builder plan" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
-                <HorizontalStackLayout Grid.Row="1" Grid.Column="0" Spacing="5">
+                <HorizontalStackLayout Grid.Row="1" Grid.ColumnSpan="3" Spacing="5">
                     <Label Text="By AI Coach" TextColor="Black" />
                     <Border Stroke="Transparent" BackgroundColor="#F77070" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="🏋️‍Muscle Maverick" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="🏋️‍Muscle Maverick" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                 </HorizontalStackLayout>
-                <HorizontalStackLayout Grid.Row="2" Grid.Column="0">
+                <HorizontalStackLayout Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Start">
                     <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#FA923C" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="Intermediate" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="Intermediate" Padding="10,0,10,0" TextColor="White" />
+
                     </Border>
                     <Border Margin="5" Stroke="Transparent" BackgroundColor="#5FA4F9" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="Gym" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label  Text="Gym" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                     <Border Margin="5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="3 Workouts" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="3 Workouts" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                 </HorizontalStackLayout>
                 <Border Grid.Row="3" Grid.Column="0"  Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="32"/>
                     </Border.StrokeShape>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <Label Grid.Row="0" Grid.Column="0" Text="Tue, Thru, Sat" Padding="10,0,10,0" TextColor="White" />
-                    </Grid>
+                    <Label Text="Tue, Thru, Sat" Padding="10,0,10,0" TextColor="White" />
                 </Border>
                 <Label Grid.Row="4" Grid.Column="0" Text="🧍‍Medium fitness level" TextColor="Black" />
                 <Label Grid.Row="5" Grid.Column="0" Text="🕓Workouts approx. 45 mins" TextColor="Black" />
@@ -190,80 +151,40 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Text="My weight loss plan" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
-                <HorizontalStackLayout Grid.Row="1" Grid.Column="0" Spacing="5">
+                <HorizontalStackLayout Grid.Row="1" Grid.ColumnSpan="3" Spacing="5">
                     <Label Text="By AI Coach" TextColor="Black" />
                     <Border Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="🧍Slim Seeker" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="🧍Slim Seeker" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                 </HorizontalStackLayout>
-                <HorizontalStackLayout Grid.Row="2" Grid.Column="0">
+                <HorizontalStackLayout Grid.Row="2" Grid.ColumnSpan="3">
                     <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="Beginner" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="Beginner" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                     <Border Margin="5" Stroke="Transparent" BackgroundColor="#5FA4F9" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="Gym and home" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="Gym and home" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                     <Border Margin="5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="32"/>
                         </Border.StrokeShape>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0" Text="3 Workouts" Padding="10,0,10,0" TextColor="White" />
-                        </Grid>
+                        <Label Text="3 Workouts" Padding="10,0,10,0" TextColor="White" />
                     </Border>
                 </HorizontalStackLayout>
                 <Border Grid.Row="3" Grid.Column="0"  Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="32"/>
                     </Border.StrokeShape>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <Label Grid.Row="0" Grid.Column="0" Text="Mon, Wed, Fri" Padding="10,0,10,0" TextColor="White" />
-                    </Grid>
+                    <Label Text="Mon, Wed, Fri" Padding="10,0,10,0" TextColor="White" />
                 </Border>
                 <Label Grid.Row="4" Grid.Column="0" Text="🧍‍Low fitness level" TextColor="Black" />
                 <Label Grid.Row="5" Grid.Column="0" Text="🕓Workouts approx. 60 mins" TextColor="Black" />
