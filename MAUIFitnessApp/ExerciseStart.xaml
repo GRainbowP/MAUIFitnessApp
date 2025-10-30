@@ -48,10 +48,249 @@
                 </Grid.ColumnDefinitions>
                 <Label Grid.RowSpan="3" Grid.Column="0" Text="✓" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#5AD398"/>
                 <Label Grid.Row="0" Grid.Column="0" Margin="20,0,0,0" Text="Elliptical Machine" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black" />
-                <Label Grid.Row="0" Grid.Column="2" TextColor="Black" Text="^" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" />
+                <Label Grid.Row="0" Grid.Column="2" TextColor="Black" Text="\/" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" />
                 <Label Grid.Row="1" Grid.Column="0" Margin="20,0,0,0" Text="ℹ️ Tap To Re-Open" FontSize="Body" HorizontalOptions="Start" TextColor="#A5A5A5" />
             </Grid>
         </Border>
 
+        <Border Margin="5" Stroke="Transparent" BackgroundColor="#EDEDED" HorizontalOptions="Fill" Padding="20,10,20,10">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="24"/>
+            </Border.StrokeShape>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Leg Press" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="Start" TextColor="Black"/>
+                <Label Grid.Row="0" Grid.Column="3" TextColor="Black" Text="^" FontSize="Subtitle" FontAttributes="Bold" HorizontalOptions="End" />
+                <HorizontalStackLayout Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="Start">
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#4E4B4B" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="Legs" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="3 sets" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#7A39EB" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="10-12 reps" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#5AD398" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="10 mins" Padding="10,0,10,0" TextColor="White" />
+                    </Border>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Row="2" Grid.ColumnSpan="4" HorizontalOptions="Start">
+                    <Border Margin="0,5,5,5" Stroke="Transparent" BackgroundColor="#60A4F9" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="Leg press machine" Padding="10,0,10,0" TextColor="Black" />
+
+                    </Border>
+                    <Border Margin="5" Stroke="Transparent" BackgroundColor="#60A4F9" HorizontalOptions="Start">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="32"/>
+                        </Border.StrokeShape>
+                        <Label Text="30.00kg" Padding="10,0,10,0" TextColor="Black" />
+                    </Border>
+                </HorizontalStackLayout>
+                <Border Margin="5" Grid.Row="3" Grid.ColumnSpan="4" Stroke="#7AB2F6">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Button Text="❓ Exercise Help" TextColor="#7AB2F6" BackgroundColor="Transparent" />
+                </Border>
+                <Label Grid.Row="4" Grid.Column="0" Margin="0,10,0,0" Text="Set 1" TextColor="Black" />
+                <Border Margin="5" Grid.Row="4" Grid.Column="3" Stroke="#F58C8C" HorizontalOptions="End">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Label Text="🗑️" Padding="5" TextColor="#F58C8C" BackgroundColor="Transparent" />
+                </Border>
+                <Border Grid.Row="5" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="30" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Weigths" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="8" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Reps" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+
+                <Label Grid.Row="6" Grid.Column="0" Margin="0,10,0,0" Text="Set 2" TextColor="Black" />
+                <Border Margin="5" Grid.Row="6" Grid.Column="3" Stroke="#F58C8C" HorizontalOptions="End">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Label Text="🗑️" Padding="5" TextColor="#F58C8C" BackgroundColor="Transparent" />
+                </Border>
+                <Border Grid.Row="7" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="25" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Weigths" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+                <Border Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="8" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Reps" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+
+                <Label Grid.Row="8" Grid.Column="0" Margin="0,10,0,0" Text="Set 3" TextColor="Black" />
+                <Border Margin="5" Grid.Row="8" Grid.Column="3" Stroke="#F58C8C" HorizontalOptions="End">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Label Text="🗑️" Padding="5" TextColor="#F58C8C" BackgroundColor="Transparent" />
+                </Border>
+                <Border Grid.Row="9" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="20" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Weigths" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+                <Border Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2" Margin="5" Stroke="Transparent" BackgroundColor="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="0" Text="-" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" />
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="10" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center"/>
+                            <Label Text="Reps" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                        <Label Margin="5" Grid.Row="0" Grid.Column="2" Text="+" FontAttributes="Bold" FontSize="Title" TextColor="Gray" VerticalOptions="Center" HorizontalOptions="End" />
+                    </Grid>
+                </Border>
+
+                <Border Margin="5" Grid.Row="10" Grid.ColumnSpan="4" Stroke="Black">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Button Text="✚ Add Set" TextColor="Black" BackgroundColor="Transparent" />
+                </Border>
+
+                <Border Margin="5" Grid.Row="11" Grid.ColumnSpan="4" Stroke="#5AD398">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    <Button Text="✓ Mark As Complete" TextColor="#5AD398" BackgroundColor="Transparent" />
+                </Border>
+            </Grid>
+        </Border>
     </VerticalStackLayout>
 </ContentPage>
