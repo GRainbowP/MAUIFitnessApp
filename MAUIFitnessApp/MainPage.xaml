@@ -11,7 +11,7 @@
 
             <Image Source="progress_bar.png" Aspect="Center" />
 
-            <Label Text="Choose your AI Coach" HorizontalOptions="Center" FontSize="Title"/>
+            <Label Text="Choose your AI Coach" HorizontalOptions="Center" FontSize="Title" TextColor="White"/>
 
             <Border Stroke="Transparent" HorizontalOptions="Center">
             <Border.StrokeShape>
@@ -27,8 +27,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Image Source="coach_1.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <Label Grid.Row="0" Grid.Column="0" Text="🧍Slim Seeker" FontSize="Subtitle" HorizontalOptions="Start"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Achieve a slimmer look" HorizontalOptions="Start"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="🧍Slim Seeker" FontSize="Subtitle" HorizontalOptions="Start" TextColor="White"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Achieve a slimmer look" HorizontalOptions="Start" TextColor="White"/>
                     <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
@@ -47,8 +47,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Image Source="coach_2.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <Label Grid.Row="0" Grid.Column="0" Text="💪Lean Machine" FontSize="Subtitle" HorizontalOptions="Start"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Become leaner and reduce body fat" HorizontalOptions="Start"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="💪Lean Machine" FontSize="Subtitle" HorizontalOptions="Start" TextColor="White"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Become leaner and reduce body fat" HorizontalOptions="Start" TextColor="White"/>
                     <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
@@ -68,8 +68,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Image Source="coach_3.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <Label Grid.Row="0" Grid.Column="0" Text="🏋️‍Muscle Maverick" FontSize="Subtitle" HorizontalOptions="Start"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Increase muscle mass and tone up" HorizontalOptions="Start"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="🏋️‍Muscle Maverick" FontSize="Subtitle" HorizontalOptions="Start" TextColor="White"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Increase muscle mass and tone up" HorizontalOptions="Start" TextColor="White"/>
                     <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
@@ -88,8 +88,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Image Source="coach_4.jpg" Aspect="Fill" MaximumHeightRequest="100" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-                    <Label Grid.Row="0" Grid.Column="0" Text="🚀Build your own coach" FontSize="Subtitle" HorizontalOptions="Start"/>
-                    <Label Grid.Row="1" Grid.Column="0" Text="Create your own AI coach and build a plan with your unique goals" HorizontalOptions="Start"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="🚀Build your own coach" FontSize="Subtitle" HorizontalOptions="Start" TextColor="White"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Create your own AI coach and build a plan with your unique goals" HorizontalOptions="Start" TextColor="White"/>
                     <Button Grid.Column="1" Clicked="SelectCoach" Grid.RowSpan="2" Text=">" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold" TextColor="White" Background="Transparent"/>
                 </Grid>
             </Border>
