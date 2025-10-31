@@ -9,6 +9,8 @@
             Padding="30,0"
             Spacing="25">
 
+            <Image Source="progress_bar.png" Aspect="Center" />
+
             <Label Text="Choose your AI Coach" HorizontalOptions="Center" FontSize="Title"/>
 
             <Border Stroke="Transparent" HorizontalOptions="Center">
